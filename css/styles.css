@@ -10,6 +10,15 @@ h1 {
   text-align: center;
 }
 
+p1 {
+  font-family: Comic San MS,cursive,sans-serif;
+  font-size: 1px;
+  font-size: 1rem;
+  line-height: 1;
+  margin-bottom: auto;
+  text-align: left;
+}
+
 .lead {
   font-family: times new roman;
   font-size:36px;
