@@ -9,14 +9,27 @@ h1 {
   margin-bottom: 0;
   text-align: center;
 }
-
-p1 {
+p {
   font-family: Comic San MS,cursive,sans-serif;
   font-size: 1px;
   font-size: 1rem;
   line-height: 1;
   margin-bottom: auto;
   text-align: left;
+}
+a {
+  color: rgb(0,0,0);
+}
+div.contrast{
+  background-color: rgb(255,255,255);
+  color: rgb(0,0,0);
+  display: flow-root;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+div.contrast{
+  ...
 }
 
 .lead {
@@ -27,6 +40,14 @@ p1 {
   margin-top: 40;
   margin-bottom: 40;
   text-align: center;
+}
+
+ol{line-style: none;
+  padding: 0;
+  margin-bottom: 10%;
+  font-size: 1em;
+  display: flex;
+  justify-content:space-between;
 }
 
 .show{
