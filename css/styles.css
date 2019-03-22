@@ -10,7 +10,7 @@ h1 {
   text-align: center;
 }
 p {
-  font-family: Comic San MS,cursive,sans-serif;
+  font-family: cursive,sans-serif, Comic Sans MS;
   font-size: 1px;
   font-size: 1rem;
   line-height: 1;
@@ -47,12 +47,14 @@ img{
   ...
 }
 
-ol{line-style: none;
+ol{
+  /*line-style: none;*/
   padding: 0;
   margin-bottom: 10%;
   font-size: 1em;
-  display: flex;
-  justify-content:space-between;
+  /*display: flex;*/
+  /*justify-content:space-between;*/
+  list-style: disc;
 }
 
 .show{
