@@ -74,7 +74,7 @@ text-align: center;
 /* Three images containers (use 25% for four, and 50% for two, etc) */
 .column{
   float: left;
-  width: 29.3%;
+  width: 29%;
   padding: 5px;
 }
 /* Clear floats after image containers */
@@ -84,14 +84,6 @@ text-align: center;
   display: table;
 }
 
-.rotateimg90 {
-  -webkit-transform:rotate(90deg);
-  -moz-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
-  transform: rotate(90deg);
-}
-
 .hover {
   position: relative;
   width: 50%;
@@ -99,7 +91,7 @@ text-align: center;
 .resp {
   opacity: 1;
   display: block;
-  width: 100%;
+  width: 70%;
   height: auto;
   transition: .5s ease;
   backface-visibility: hidden;
@@ -127,6 +119,6 @@ text-align: center;
 .text {
   background-color: #af4c8f;
   color: white;
-  font-size: 20px;
-  padding: 20px 32px;
+  font-size: 17px;
+  padding: 17px 32px;
 }
