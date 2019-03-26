@@ -70,3 +70,63 @@ text-align: center;
 .video{
 text-align: center;
 }
+
+/* Three images containers (use 25% for four, and 50% for two, etc) */
+.column{
+  float: left;
+  width: 29.3%;
+  padding: 5px;
+}
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.rotateimg90 {
+  -webkit-transform:rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.hover {
+  position: relative;
+  width: 50%;
+}
+.resp {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.hover:hover .resp {
+  opacity: 0.3;
+}
+
+.hover:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #af4c8f;
+  color: white;
+  font-size: 20px;
+  padding: 20px 32px;
+}
