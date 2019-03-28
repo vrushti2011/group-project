@@ -47,16 +47,6 @@ img{
   ...
 }
 
-ol{
-  /*line-style: none;*/
-  padding: 0;
-  margin-bottom: 10%;
-  font-size: 1em;
-  /*display: flex;*/
-  /*justify-content:space-between;*/
-  list-style: disc;
-}
-
 .show{
   font-family: times new roman;
 font-size:24px;
