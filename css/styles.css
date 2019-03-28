@@ -19,7 +19,7 @@ p {
 }
 a {
   color: rgb(0,0,0);
-
+}
 p1 {
   font-family: Comic San MS,cursive,sans-serif;
   font-size: 1px;
@@ -54,16 +54,6 @@ div.contrast{
 }
 img{
   ...
-}
-
-ol{
-  /*line-style: none;*/
-  padding: 0;
-  margin-bottom: 10%;
-  font-size: 1em;
-  /*display: flex;*/
-  /*justify-content:space-between;*/
-  list-style: disc;
 }
 
 .show{
