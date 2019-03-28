@@ -19,7 +19,16 @@ p {
 }
 a {
   color: rgb(0,0,0);
-}
+
+p1 {
+  font-family: Comic San MS,cursive,sans-serif;
+  font-size: 1px;
+  font-size: 1rem;
+  line-height: 1;
+  margin-bottom: auto;
+  text-align: right;
+  }
+
 div.contrast{
   background-color: rgb(255,255,255);
   color: rgb(0,0,0);
